@@ -11,10 +11,10 @@
     text-transform: none;
     color: rgb(207, 226, 243);
     text-align:center ;
-    background-color: rgba(137, 116, 212, 0.925);
+    background-color: rgba(68, 143, 194, 0.925);
     padding: 25px 50px;
     border-style: double;
-    border: 2px solid rgba(61, 8, 71, 0.568);
+    border: 2px solid rgba(12, 79, 124, 0.925);
     border-radius: 4px;
     text-shadow: 2px 2px 5px rgb(29, 14, 163);
     margin-right: 150px;
@@ -47,13 +47,13 @@
     font-variant: normal;
     color: rgb(207, 226, 243);
     text-align: center;
-    background-color: rgba(137, 116, 212, 0.925);
+    background-color: rgba(68, 143, 194, 0.925);
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
     border-style: double;
-    border: 2px solid rgba(61, 8, 71, 0.568);
+    border: 2px solid rgba(12, 79, 124, 0.925);
     border-radius: 4px;
     margin-right: 150px;
     margin-left: 150px ;
@@ -93,9 +93,9 @@
     color: rgb(207, 226, 243);
     padding: 25px 50px;
     border-style: double;
-    border: 2px solid rgba(61, 8, 71, 0.568);
+    border: 2px solid rgba(12, 79, 124, 0.925);
     border-radius: 4px;
-    background-color: rgba(137, 116, 212, 0.925);
+    background-color: rgba(68, 143, 194, 0.925);
     text-shadow: 2px 2px 5px rgb(29, 14, 163);
     margin-right: 150px;
     margin-left: 150px ;
@@ -284,7 +284,7 @@ h1 {
     text-transform: capitalize;
     text-shadow: 1px 0px 1px #152a96,
     
-    margin-bottom: 20px;
+    
 }
 
 label {
@@ -363,3 +363,60 @@ button:hover {
      6px 5px 1px #441ab8, 5px 6px 1px #382396, 7px 6px 1px #627bc0;
     margin-bottom: 30px;
 }
+.menu li,a{
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+    
+    color: #793535;
+    font-size: 20px;
+}
+.menu li,a:hover{
+    color: azure;
+    
+}
+.center{
+    text-align:center ;
+    color: #582323;
+}
+.img{
+    text-align:center ;
+   height: 30px;
+   width: 30px;
+   padding: 10px;
+   
+}
+.line {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .anim-typewriter {
+    animation: typewriter 10s steps(30) 500ms infinite,
+      blinkTextCursor 1000ms steps(30) infinite normal;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
